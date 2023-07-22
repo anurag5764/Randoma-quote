@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #01333a;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.Title{
+    color: rgb(240, 230, 230);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Quote{
+  background-color: rgb(6, 219, 251);
+  border:  2px solid rgb(176, 64, 0);
+  border-radius: 20px;
+  padding: 10px;
+  color: rgb(1, 1, 1);
+  box-shadow: 0 0 10px 0 #aaf8ffcc;
+  font-size: 25px;
+  font-weight: 400;
+  max-width: 600px;
+}
+.Author{
+  background-color: rgb(140, 140, 188);
+  border:  2px solid rgb(255, 0, 242);
+  border-radius: 20px;
+  padding: 10px;
+  color: rgb(59, 33, 68);
+  box-shadow: 0 0 10px 0 #aaf8ffcc;
+  font-style: italic;
+}
+.generator{
+  background-color: rgb(166, 240, 190);
+  border:  2px solid rgb(255, 0, 0);
+  border-radius: 20px;
+  padding: 10px;
+  color: rgb(2, 58, 12);
+  box-shadow: 0 0 10px 0 #aaf8ffcc;
+  font-size: 20px;
+  font-weight: 600;
+}
